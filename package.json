@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "tcm": "./node_modules/.bin/tcm **/*.scss -o types/tcm"
   },
   "dependencies": {
     "next": "10.0.6",
@@ -15,6 +16,7 @@
   "devDependencies": {
     "@types/node": "^14.14.22",
     "@types/react": "^17.0.1",
+    "typed-css-modules": "^0.6.5",
     "typescript": "^4.1.3"
   }
 }

@@ -1,0 +1,18 @@
+.container {
+  position: fixed;
+  height: 48px;
+  display: flex;
+  right: 16px;
+  bottom: 24px;
+}
+
+.tool_box {
+  height: 48px;
+  background: #ffffff;
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 12%);
+  border-radius: 48px;
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}
